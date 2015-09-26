@@ -1,0 +1,83 @@
+.reveal a:not(.image) {
+  color: #50535a;
+}
+
+.reveal a:not(.image):hover,
+.reveal a:not(.image):focus {
+  color: #393B40;
+}
+
+.reveal i.fa {
+  font-family: FontAwesome;
+  font-style: normal;
+  text-shadow: none;
+}
+
+td.td-middle {
+  vertical-align: middle;
+}
+
+td.td-top {
+  vertical-align: top;
+}
+
+.reveal .progress span {
+  background-color: #8cbe4f;
+}
+
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled,
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: #8cbe4f;
+}
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled,
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: #8cbe4f;
+}
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled,
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #8cbe4f;
+}
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled,
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: #8cbe4f;
+}
+
+.reveal section img.clean {
+  background: none;
+  border: 0;
+  box-shadow: none;
+}
+
+a.home {
+  bottom: 57px;
+  color: #8cbe4f;
+  position: absolute;
+  right: 58px;
+  z-index: 100;
+}
+
+body {
+  background: radial-gradient(center, circle cover, #8cbe4f 0%, #5D7E34 100%);
+  background: -webkit-radial-gradient(center, circle cover, #8cbe4f 0%, #5D7E34 100%);
+  background: -ms-radial-gradient(center, circle cover, #8cbe4f 0%, #5D7E34 100%);
+}
+
+.reveal .fa-sm {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.reveal .slide-number {
+  color: #EFEFEF;
+}
+
+.reveal pre code.code-large {
+  max-height: 800px;
+}
